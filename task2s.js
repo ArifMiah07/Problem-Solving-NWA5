@@ -34,9 +34,9 @@ const books = [
     },
 ]
 
-const onlyBooksTittle = (books)=> {
+const onlyBooksTitles = (books)=> {
     const titles = books.map(book=> book.title);
     return titles;
 }
-const result = onlyBooksTittle(books);
+const result = onlyBooksTitles(books);
 console.log(result);
